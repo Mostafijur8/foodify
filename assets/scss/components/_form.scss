@@ -1,0 +1,224 @@
+.contact-form {
+    &.style2 {
+        width: 630px;
+        height: 593px;
+        padding: 60px;
+        border-radius: 20px;
+        background: var(--white);
+        box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+
+        @include breakpoint (max-md) {
+            display: none;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            .form-row {
+                display: flex;
+                gap: 30px;
+                margin-bottom: 30px;
+
+                @include breakpoint(max-xs) {
+                    flex-direction: column;
+                }
+
+                .form-group {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+
+                    label {
+                        color: #131313;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                        margin-bottom: 10px;
+                    }
+
+                    .input-field,
+                    .textarea-field {
+                        max-width: 240px;
+                        border-radius: 999px;
+                        background: transparent;
+                        border: 1px solid #d0d0d0;
+                        padding: 19px 30px;
+                        color: #565969;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                        outline: none;
+
+                        &::placeholder {
+                            color: rgba(0, 0, 0, 0.7);
+                        }
+                    }
+
+                    .textarea-field {
+                        border-radius: 20px;
+                        height: 110px;
+                        padding: 11px 20px;
+                        max-width: 100%;
+                    }
+
+                    &.select-field {
+                        position: relative;
+
+                        select.input-field {
+                            width: 100%;
+                            appearance: none;
+                            padding-right: 40px;
+                            cursor: pointer;
+                        }
+
+                        .icon {
+                            position: absolute;
+                            top: 72%;
+                            right: 20px;
+                            transform: translateY(-72%);
+                            pointer-events: none;
+
+                            i {
+                                color: var(--theme);
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+
+                .full-width {
+                    width: 100%;
+                }
+            }
+        }
+
+        .btn-wrapper {
+            .gt-btn {
+                &.style4 {
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    &.style3 {
+        width: 629px;
+        border-radius: 20px;
+        background: var(var(--title-color));
+
+        @include breakpoint(max-xxl) {
+            width: 585px;
+        }
+
+        @include breakpoint (max-xl) {
+            width: 640px;
+            margin: 0 auto;
+        }
+
+        @include breakpoint (max-md) {
+            width: 100%;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            @include breakpoint (max-md) {
+                margin: 0 15px;
+            }
+
+            .form-row {
+                display: flex;
+                gap: 30px;
+                margin-bottom: 30px;
+
+                @include breakpoint (max-md) {
+                    row-gap: 30px;
+                }
+
+                @include breakpoint(max-md) {
+                    flex-direction: column;
+                }
+
+                .form-group {
+                    flex: 1;
+                    display: flex;
+                    flex-direction: column;
+
+                    .input-field,
+                    .textarea-field {
+                        max-width: 100%;
+                        border-radius: 999px;
+                        background: var(var(--title-color));
+                        border: 2px solid rgba(208, 208, 208, 0.2);
+                        padding: 15px 30px;
+                        color: var(--white);
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 30px;
+                        outline: none;
+
+                        @include breakpoint(max-xxl) {
+                            max-width: 95%;
+                        }
+
+                        &::placeholder {
+                            color: var(--white);
+                        }
+                    }
+
+                    .textarea-field {
+                        border-radius: 20px;
+                        height: 140px;
+                        padding: 11px 20px;
+                        max-width: 100%;
+                    }
+
+                    &.select-field {
+                        position: relative;
+
+                        select.input-field {
+                            width: 100%;
+                            appearance: none;
+                            padding-right: 40px;
+                            cursor: pointer;
+                        }
+
+                        .icon {
+                            position: absolute;
+                            top: 60%;
+                            right: 20px;
+                            transform: translateY(-60%);
+                            pointer-events: none;
+
+                            @include breakpoint(max-lg) {
+                                right: 40px;
+                            }
+
+                            i {
+                                color: var(--theme);
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+
+                .full-width {
+                    width: 100%;
+                }
+            }
+        }
+
+        .btn-wrapper {
+            .gt-btn {
+                &.style4 {
+                    display: inline;
+                }
+            }
+        }
+    }
+}

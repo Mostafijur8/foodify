@@ -1,0 +1,17 @@
+/*----------------------------------------------
+    # Buttons style here
+----------------------------------------------*/
+.theme-btn-one {
+    a {
+        font-family: var(--font-primary);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: -0.01em;
+        color: var(--white);
+        border-radius: 40px;
+        padding: 16px 24px;
+        background: var(--theme-2);
+
+    }
+}

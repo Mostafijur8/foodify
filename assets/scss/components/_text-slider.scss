@@ -1,0 +1,115 @@
+.scrolling-wrap {
+    &.style1 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        gap: 20px;
+        border-radius: 4px;
+        background: var(--white);
+        padding: 17px 16px;
+        position: relative;
+        z-index: -1;
+
+        .comm {
+            display: flex;
+            align-items: center;
+            animation: scroll 60s linear infinite;
+            cursor: pointer;
+            gap: 35px;
+
+            .cmn-textslide-1 {
+                color: var(--theme-5);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+                text-transform: uppercase;
+            }
+
+            .cmn-textslide-2 {
+                color: var(--theme-5);
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 26px;
+                text-transform: uppercase;
+            }
+        }
+
+        &:hover {
+            .comm {
+                animation-play-state: paused;
+            }
+        }
+    }
+
+    &.style3 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: flex;
+        gap: 20px;
+        background-color: transparent;
+        position: relative;
+        z-index: 999;
+        padding-bottom: 60px;
+
+        @include breakpoint(max-sm) {
+            padding-bottom: 40px;
+        }
+
+        .comm {
+            display: flex;
+            align-items: center;
+            animation: scroll 60s linear infinite;
+            gap: 40px;
+            cursor: pointer;
+
+            .cmn-textslide-1 {
+                color: var(--white);
+                font-size: 80px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 80px;
+                letter-spacing: 8px;
+
+                @include breakpoint(max-sm) {
+                    font-size: 40px;
+                }
+
+                &:nth-child(2n) {
+                    -webkit-text-stroke-width: 1px;
+                    -webkit-text-stroke-color: var(--white);
+                    color: transparent;
+                    background: transparent;
+                }
+            }
+        }
+
+        &:hover {
+            .comm {
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}

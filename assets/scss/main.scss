@@ -1,0 +1,152 @@
+/*-----------------------------------------------------------------
+Theme Name: Raizen
+Author: Bug Finder
+Author URI: https://themeforest.net/user/bug-finder/portfolio
+Version: 1.0.0 
+Description: Raizen- Personal Portfolio  <
+ 
+-------------------------------------------------------------------
+ CSS TABLE OF CONTENTS
+-------------------------------------------------------------------
+01.Mixins
+02.Variables
+03.Typography
+04.Animation
+05.Buttons
+06.Card
+07.Container
+08.Form
+09.Gutter
+10.Helping
+11.Meanmenu 
+12.Preloader
+13.Spacing
+14.Text Slider
+15.Title
+16.Header
+17.sidebar
+18.Footer
+19.About
+20.Blog
+21.Brand
+22.Contact
+23.Cta
+24.Faq 
+25.Feature
+26.Intro
+27.Projects
+28.Services
+29.Testimonials
+30.Video
+
+------------------------------------------------------------------*/
+
+
+//--------------- Abstracts Start-------------------//
+
+/* 01.Mixins */
+@import "abstracts/_mixins";
+
+/* 02.Variables */
+@import "abstracts/_variables";
+
+/* 03.Typography */
+@import "abstracts/_typography";
+
+//--------------- Abstracts End-------------------//
+
+
+//--------------- Components Start-------------------//
+
+/* 04.Animation */
+@import "components/_animation";
+
+/* 05.Buttons */
+@import "components/_buttons";
+
+/* 06.Card */
+@import "components/_card";
+
+/* 07.Container */
+@import "components/_container";
+
+/* 08.Form */
+@import "components/_form";
+
+/* 09.Gutter */
+@import "components/_gutter";
+
+/* 10.Helping */
+@import "components/_helping";
+
+/* 11.Meanmenu */
+@import "components/_meanmenu";
+
+/* 12.Preloader */
+@import "components/_preloader";
+
+/* 13.Spacing*/
+@import "components/_spacing";
+
+/* 14.Text Slider */
+@import "components/_text-slider";
+
+/* 15.Title */
+@import "components/_title";
+
+//--------------- Components End-------------------//
+
+
+//--------------- Layout Start-------------------//
+
+/* 16.Header */
+@import "layout/_header";
+
+/* 17.sidebar */
+@import "layout/_sidebar";
+
+/* 18.Footer */
+@import "layout/_footer";
+
+//--------------- Layout End-------------------//
+
+//--------------- Sections Start-------------------//
+/* 19.About */
+@import "sections/_about";
+
+/* 20.Blog */
+@import "sections/_blog";
+
+/* 21.Brand */
+@import "sections/_brand";
+
+/* 22.Contact */
+@import "sections/_contact";
+
+/* 23.Cta */
+@import "sections/_cta";
+
+/* 24.Faq */
+@import "sections/_faq";
+
+/* 25.Feature */
+@import "sections/_feature";
+
+/* 26.Intro */
+@import "sections/_intro";
+
+/* 27.Projects */
+@import "sections/_projects";
+
+/* 28.Services */
+@import "sections/_services";
+
+/* 29.Testimonials */
+@import "sections/_testimonials";
+
+/* 30.Video */
+@import "sections/_video";
+
+
+
+//--------------- Sections End-------------------//
