@@ -1,3 +1,130 @@
 /*----------------------------------------------
     # Intro style here
 ----------------------------------------------*/
+.intro-area {
+    position: relative;
+
+    .intro-wrapper {
+        padding-top: 177px;
+        background-color: var(--theme);
+
+        .intro-top {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 112px;
+            gap: 40px;
+
+            .left {
+                display: flex;
+                gap: 32px;
+            }
+
+
+            .left-content {
+                font-family: var(--font-secondary);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 110%;
+                letter-spacing: -0.01em;
+                color: var(--theme-3);
+                max-width: 185px;
+            }
+
+            .middle-content {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 80px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--white);
+                max-width: 685px;
+            }
+
+            .right-content {
+                .vector-image {
+                    margin-left: 32px;
+
+                    .client-img {
+                        margin-left: -32px;
+                    }
+                }
+
+
+                p {
+                    font-family: var(--font-body);
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--white);
+                    max-width: 497px;
+                    margin-bottom: 40px;
+                }
+            }
+        }
+
+        .intro-title-section {
+            .intro-day-time {
+                display: flex;
+                justify-content: space-between;
+
+                .day-time-left,
+                .day-time-right {
+                    .day {
+                        font-family: var(--font-primary);
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 120%;
+                        letter-spacing: -0.01em;
+                        color: var(--white);
+                        margin-top: 38px;
+                    }
+
+                    .time {
+                        font-family: var(--font-body);
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        letter-spacing: -0.01em;
+                        color: var(--white);
+                        margin-top: 24px;
+                    }
+
+                }
+            }
+        }
+
+        .intro-title {
+            position: relative;
+            z-index: 1;
+
+            .intro-right-bg-img {
+                position: absolute;
+                right: -76px;
+                top: 38px;
+                z-index: -1;
+            }
+
+            .intro-bg-img {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: -1;
+
+                .intro-bg-one {
+                    position: relative;
+
+                    .man-img {
+                        position: absolute;
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }
+        }
+    }
+}

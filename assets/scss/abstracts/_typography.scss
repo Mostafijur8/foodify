@@ -54,9 +54,12 @@ h6 {
 }
 
 h1 {
-    font-size: 120px;
-    font-weight: 600;
-    line-height: 130px;
+    font-family: var(--font-primary);
+    font-weight: 400;
+    font-size: 400px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+    color: var(--white);
 
     @include breakpoint(max-xxl) {
         font-size: 75px;

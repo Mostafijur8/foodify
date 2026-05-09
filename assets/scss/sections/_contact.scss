@@ -1,1 +1,45 @@
 // Contact Page
+.contact-info-wrapper {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--header-color);
+    width: 100%;
+    padding: 80px 0;
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .info-bar {
+            display: flex;
+
+            gap: 16px;
+
+            .info-content {
+                h5 {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    color: var(--white);
+                    margin-bottom: 8px;
+
+                }
+
+                a,
+                p {
+
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--white);
+                }
+            }
+
+        }
+    }
+}
