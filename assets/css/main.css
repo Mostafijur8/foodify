@@ -121,6 +121,7 @@ h6 {
 }
 
 h1 {
+  display: inline-block;
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 400px;
@@ -3901,8 +3902,6 @@ img {
 /* 21.Brand */
 /* 22.Contact */
 .contact-info-wrapper {
-  position: absolute;
-  z-index: 1;
   background-color: var(--header-color);
   width: 100%;
   padding: 80px 0;
@@ -3942,36 +3941,51 @@ img {
 ----------------------------------------------*/
 /* 25.Feature */
 /* 26.Intro */
-/*----------------------------------------------
-    # Intro style here
-----------------------------------------------*/
-.intro-area {
+.hero-wrapper {
+  padding-top: 177px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: var(--header-color);
   position: relative;
 }
-.intro-area .intro-wrapper {
-  padding-top: 177px;
-  background-color: var(--theme);
+.hero-wrapper .hero-bottom-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
-.intro-area .intro-wrapper .intro-top {
+.hero-wrapper .hero-bottom-tow {
+  position: absolute;
+  bottom: 103px;
+  right: 367px;
+  z-index: 1;
+}
+.hero-wrapper .hero-top,
+.hero-wrapper .hero-middle,
+.hero-wrapper .hero-bottom {
+  position: relative;
+  z-index: 2;
+}
+.hero-wrapper .hero-top {
+  margin-top: 112px;
   display: flex;
   justify-content: space-between;
-  margin-top: 112px;
   gap: 40px;
 }
-.intro-area .intro-wrapper .intro-top .left {
+.hero-wrapper .hero-top .left-mid-content {
   display: flex;
   gap: 32px;
 }
-.intro-area .intro-wrapper .intro-top .left-content {
+.hero-wrapper .hero-top .left-content {
   font-family: var(--font-secondary);
   font-weight: 400;
   font-size: 20px;
   line-height: 110%;
   letter-spacing: -0.01em;
   color: var(--theme-3);
-  max-width: 185px;
 }
-.intro-area .intro-wrapper .intro-top .middle-content {
+.hero-wrapper .hero-top .mid-content {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 80px;
@@ -3980,73 +3994,59 @@ img {
   color: var(--white);
   max-width: 685px;
 }
-.intro-area .intro-wrapper .intro-top .right-content .vector-image {
-  margin-left: 32px;
+.hero-wrapper .hero-top .right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
-.intro-area .intro-wrapper .intro-top .right-content .vector-image .client-img {
-  margin-left: -32px;
-}
-.intro-area .intro-wrapper .intro-top .right-content p {
-  font-family: var(--font-body);
-  font-style: italic;
+.hero-wrapper .hero-top .right-content .para {
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   letter-spacing: -0.01em;
   color: var(--white);
   max-width: 497px;
-  margin-bottom: 40px;
 }
-.intro-area .intro-wrapper .intro-title-section .intro-day-time {
+.hero-wrapper .hero-top .right-content .client-image {
+  margin-left: 33px;
+}
+.hero-wrapper .hero-top .right-content .client-image img {
+  margin-left: -33px;
+}
+.hero-wrapper .hero-middle {
   display: flex;
   justify-content: space-between;
+  margin-top: 38px;
 }
-.intro-area .intro-wrapper .intro-title-section .intro-day-time .day-time-left .day,
-.intro-area .intro-wrapper .intro-title-section .intro-day-time .day-time-right .day {
+.hero-wrapper .hero-middle .day-time-left,
+.hero-wrapper .hero-middle .day-time-right {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 32px;
   line-height: 120%;
   letter-spacing: -0.01em;
   color: var(--white);
-  margin-top: 38px;
 }
-.intro-area .intro-wrapper .intro-title-section .intro-day-time .day-time-left .time,
-.intro-area .intro-wrapper .intro-title-section .intro-day-time .day-time-right .time {
-  font-family: var(--font-body);
+.hero-wrapper .hero-bottom {
+  position: relative;
+  margin-top: 24px;
+  padding-bottom: 41px;
+}
+.hero-wrapper .hero-bottom .time {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-wrapper .hero-bottom .time .time-left,
+.hero-wrapper .hero-bottom .time .time-right {
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.01em;
   color: var(--white);
-  margin-top: 24px;
 }
-.intro-area .intro-wrapper .intro-title {
-  position: relative;
-  z-index: 1;
-}
-.intro-area .intro-wrapper .intro-title .intro-right-bg-img {
-  position: absolute;
-  right: -76px;
-  top: 38px;
-  z-index: -1;
-}
-.intro-area .intro-wrapper .intro-title .intro-bg-img {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-}
-.intro-area .intro-wrapper .intro-title .intro-bg-img .intro-bg-one {
-  position: relative;
-}
-.intro-area .intro-wrapper .intro-title .intro-bg-img .intro-bg-one .man-img {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.hero-wrapper .hero-bottom .big-title {
+  margin: 0 auto;
 }
 
 /* 27.Projects */
