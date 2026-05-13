@@ -3915,7 +3915,7 @@ img {
   display: flex;
   gap: 16px;
 }
-.contact-info-wrapper .contact-info .info-bar .info-content h5 {
+.contact-info-wrapper .contact-info .info-bar .info-content h2 {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 32px;
