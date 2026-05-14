@@ -29,9 +29,82 @@
                     width: 82px;
                     height: 81px;
                 }
-                
-                img{
+
+                img {
                     object-fit: cover;
+                }
+            }
+        }
+    }
+
+    .about-main-content {
+        .big-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .text-one {
+                font-family: var(--font-body);
+                font-style: italic;
+                font-weight: 600;
+                font-size: 306px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                background: white;
+                -webkit-text-stroke: 2px var(--theme);
+                -webkit-text-fill-color: transparent;
+            }
+
+            .text-tow {
+                font-family: var(--font-body);
+                font-style: italic;
+                font-weight: 600;
+                font-size: 306px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--theme);
+                position: absolute;
+                top: 0px;
+                left: 51%;
+                transform: translatex(-50%);
+            }
+
+            .text-three {
+                font-family: var(--font-body);
+                font-style: italic;
+                font-weight: 600;
+                font-size: 229px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--title-color);
+                position: absolute;
+                top: 203px;
+                right: 440px;
+            }
+
+            .about-cta {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--title-color);
+                transform: rotate(17deg);
+                border: 1px solid var(--title-color);
+                border-radius: 30px;
+                padding: 8px 24px;
+
+                &.one {
+                    position: absolute;
+                    bottom: 13px;
+                    left: 28%;
+                }
+
+                &.two {
+                    position: absolute;
+                    top: 141px;
+                    right: 26%;
                 }
             }
         }
