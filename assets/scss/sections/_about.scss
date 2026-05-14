@@ -1,0 +1,39 @@
+.about-wrapper {
+    .top-section-title {
+        .sub-title {
+            margin-bottom: 23px;
+        }
+
+        .title {
+            max-width: 1206px;
+            margin: 0 auto;
+
+            span {
+                position: relative;
+                top: -15px;
+
+                .thumb-one {
+                    border-radius: 80px;
+                    width: 186px;
+                    height: 81px;
+                }
+
+                .thumb-two {
+                    border-radius: 80px;
+                    width: 100px;
+                    height: 64px;
+                }
+
+                .thumb-three {
+                    border-radius: 80px;
+                    width: 82px;
+                    height: 81px;
+                }
+                
+                img{
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

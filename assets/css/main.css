@@ -2348,6 +2348,10 @@ img {
   margin-bottom: 20px;
 }
 
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 .mb-40 {
   margin-bottom: 40px;
 }
@@ -2362,6 +2366,22 @@ img {
 
 .pl-12 {
   padding-left: 12px;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-8 {
+  padding-top: 8px;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+
+.pt-110 {
+  padding-top: 110px;
 }
 
 /* 14.Text Slider */
@@ -2467,6 +2487,23 @@ img {
 /*----------------------------------------------
     # Title style here
 ----------------------------------------------*/
+.top-section-title .sub-title {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 110%;
+  letter-spacing: -0.01em;
+  color: var(--theme-3);
+}
+.top-section-title .title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--title-color);
+}
+
 /* 16.Header */
 /*----------------------------------------------
     # Header style here
@@ -3898,6 +3935,37 @@ img {
     # Footer style here
 ----------------------------------------------*/
 /* 19.About */
+.about-wrapper .top-section-title .sub-title {
+  margin-bottom: 23px;
+}
+.about-wrapper .top-section-title .title {
+  max-width: 1206px;
+  margin: 0 auto;
+}
+.about-wrapper .top-section-title .title span {
+  position: relative;
+  top: -15px;
+}
+.about-wrapper .top-section-title .title span .thumb-one {
+  border-radius: 80px;
+  width: 186px;
+  height: 81px;
+}
+.about-wrapper .top-section-title .title span .thumb-two {
+  border-radius: 80px;
+  width: 100px;
+  height: 64px;
+}
+.about-wrapper .top-section-title .title span .thumb-three {
+  border-radius: 80px;
+  width: 82px;
+  height: 81px;
+}
+.about-wrapper .top-section-title .title span img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* 20.Blog */
 /* 21.Brand */
 /* 22.Contact */
