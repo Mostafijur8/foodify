@@ -109,4 +109,88 @@
             }
         }
     }
+
+    .about-bottom-content {
+        margin-top: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 121px;
+
+        .about-text {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 150%;
+            letter-spacing: -0.01em;
+            color: var(--black-2);
+            max-width: 887px;
+        }
+
+        .about-button {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+
+            .button-one {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--white);
+
+                border-radius: 40px;
+                padding: 16px 24px;
+                background-color: var(--theme-2);
+
+            }
+
+            .button-two {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--title-color);
+                width: 231px;
+                height: 56px;
+                border: 1px solid var(--title-color);
+                border-radius: 30px;
+                padding: 16px 24px;
+
+            }
+        }
+    }
+
+    .about-footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--theme-2);
+        height: 152px;
+        margin-top: 112px;
+
+        .footer-content{
+            display: flex;
+            gap: 48px;
+            align-items: center;
+        }
+
+        span {
+            font-family: var(--font-primary);
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 120%;
+            letter-spacing: -0.01em;
+            color: var(--white);
+        }
+
+        img {
+            width: 88.73px;
+            height: 88.73px;
+            border-radius: 50%;
+        }
+
+    }
 }
