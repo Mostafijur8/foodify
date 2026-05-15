@@ -4307,6 +4307,19 @@ img {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.food-menu-wrapper .card-menu .menu-item:nth-child(odd) {
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-right: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
+}
+.food-menu-wrapper .card-menu .menu-item:nth-child(even) {
+  padding-left: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--white);
+}
 .food-menu-wrapper .card-menu .menu-item .price-box {
   border-radius: 80px;
   padding: 8px 24px;
@@ -4324,7 +4337,6 @@ img {
   color: var(--title-color);
 }
 .food-menu-wrapper .card-menu .menu-item .thumb {
-  width: 680px;
   height: 680px;
 }
 .food-menu-wrapper .card-menu .menu-item .thumb img {
