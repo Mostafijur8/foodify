@@ -1,0 +1,91 @@
+.food-menu-wrapper {
+    background-color: var(--title-color);
+
+    .top-section-title {
+        padding-bottom: 160px;
+
+        .menu-title {
+            font-family: var(--font-primary);
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 120%;
+            letter-spacing: -0.01em;
+            color: var(--white);
+            margin-top: 16px;
+
+            .two {
+                text-align: right;
+                margin-top: 10px;
+            }
+        }
+
+    }
+
+    .card-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .menu-item {
+        
+            .price-box {
+                border-radius: 80px;
+                padding: 8px 24px;
+                width: 100px;
+                height: 43px;
+                background: var(--white);
+                margin-left: auto;
+
+                .price {
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--title-color);
+                }
+            }
+
+            .thumb {
+                width: 680px;
+                height: 680px;
+                
+
+                img {
+                    width: 680px;
+                    height: 680px;
+                    border-radius: 100%;
+                    object-fit: cover;
+                   
+                }
+            }
+
+            .content {
+                display: flex;
+                color: var(--white);
+                justify-content: space-between;
+                align-items: center;
+
+                border: 1px solid var(--white);
+                border-radius: 80px;
+                padding: 24px 32px;
+                width: 680px;
+                height: 86px;
+
+
+                .title {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                }
+
+                .sub-menu {
+                    font-style: italic;
+                    font-size: 18px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
