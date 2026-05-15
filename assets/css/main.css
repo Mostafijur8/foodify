@@ -4052,31 +4052,35 @@ img {
   align-items: center;
 }
 .about-wrapper .about-bottom-content .about-button .button-one {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
-  letter-spacing: -0.01em;
   color: var(--white);
+  background-color: var(--theme-2);
   border-radius: 40px;
   padding: 16px 24px;
-  background-color: var(--theme-2);
+  text-decoration: none;
+  white-space: nowrap;
 }
 .about-wrapper .about-bottom-content .about-button .button-two {
-  display: flex;
-  gap: 8px;
+  display: inline-flex;
   align-items: center;
+  gap: 8px;
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 20px;
-  line-height: 120%;
-  letter-spacing: -0.01em;
+  line-height: 1;
   color: var(--title-color);
-  width: 231px;
-  height: 56px;
   border: 1px solid var(--title-color);
   border-radius: 30px;
   padding: 16px 24px;
+  height: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
 }
 .about-wrapper .about-footer {
   background-color: var(--theme-2);
@@ -4092,12 +4096,12 @@ img {
   width: -moz-max-content;
   width: max-content;
   animation: marquee 60s linear infinite;
+  white-space: nowrap;
 }
 .about-wrapper .about-footer .footer-marquee .footer-content {
   display: flex;
   gap: 15px;
   align-items: center;
-  overflow: hidden;
   flex-shrink: 0;
 }
 .about-wrapper .about-footer .footer-marquee span {
@@ -4107,7 +4111,6 @@ img {
   line-height: 120%;
   letter-spacing: -0.01em;
   color: var(--white);
-  white-space: nowrap;
 }
 .about-wrapper .about-footer .footer-marquee img {
   width: 88.73px;
