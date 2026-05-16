@@ -4301,12 +4301,19 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.testimonials-wraper .testimonials-menu .Seasonal-menu .seasonal-item-list .item {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .seasonal-item-list .item:hover {
   background-image: url(/assets/images/testimonials/testimonials-bg1_1.png);
-  padding: 24px;
   border-radius: 10px;
+  padding: 24px;
   width: 648px;
-  height: 120px;
+  height: 131px;
+}
+.testimonials-wraper .testimonials-menu .Dessert-menu .Dessert-item-list .item:hover {
+  background-image: url(/assets/images/testimonials/testimonials-bg1_2.png);
+  border-radius: 10px;
+  padding: 24px;
+  width: 648px;
+  height: 131px;
 }
 .testimonials-wraper .testimonials-menu .sub-title {
   font-family: var(--font-primary);
@@ -4322,6 +4329,10 @@ img {
   align-items: center;
   gap: 24px;
   margin-bottom: 32px;
+  border-radius: 10px;
+  padding: 24px;
+  width: 648px;
+  height: 131px;
 }
 .testimonials-wraper .testimonials-menu .item img {
   border-radius: 20px;

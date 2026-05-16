@@ -17,19 +17,23 @@
 
         .Seasonal-menu {
             .seasonal-item-list {
-                .item {
-                    background-image: url(/assets/images/testimonials/testimonials-bg1_1.png);
-                    padding: 24px;
-                    border-radius: 10px;
-                    width: 648px;
-                    height: 120px;
-                
-                 
-                }
-
                 .item:hover {
-           
-              
+                    background-image: url(/assets/images/testimonials/testimonials-bg1_1.png);
+                    border-radius: 10px;
+                    padding: 24px;
+                    width: 648px;
+                    height: 131px;
+                }
+            }
+        }
+        .Dessert-menu {
+            .Dessert-item-list {
+                .item:hover {
+                    background-image: url(/assets/images/testimonials/testimonials-bg1_2.png);
+                    border-radius: 10px;
+                    padding: 24px;
+                    width: 648px;
+                    height: 131px;
                 }
             }
         }
@@ -49,6 +53,11 @@
             align-items: center;
             gap: 24px;
             margin-bottom: 32px;
+
+            border-radius: 10px;
+            padding: 24px;
+            width: 648px;
+            height: 131px;
 
             img {
                 border-radius: 20px;
