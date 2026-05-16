@@ -1159,11 +1159,11 @@
             }
 
             a {
-              color: var(--title);
+              color: var(--white);
 
               &.active,
               &:hover {
-                color: var(--title) !important;
+                color: var(--theme-3) !important;
               }
             }
           }

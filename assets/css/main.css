@@ -3502,10 +3502,10 @@ img {
   color: var(--title);
 }
 .sticky.header-1 .header-main .main-menu ul li a {
-  color: var(--title);
+  color: var(--white);
 }
 .sticky.header-1 .header-main .main-menu ul li a.active, .sticky.header-1 .header-main .main-menu ul li a:hover {
-  color: var(--title) !important;
+  color: var(--theme-3) !important;
 }
 @media (max-width: 450px) {
   .sticky.header-1 {
