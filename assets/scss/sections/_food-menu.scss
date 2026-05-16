@@ -1,5 +1,6 @@
 .food-menu-wrapper {
     background-color: var(--title-color);
+    padding-bottom: 112px;
 
     .top-section-title {
         padding-bottom: 160px;
@@ -26,13 +27,16 @@
         grid-template-columns: repeat(2, 1fr);
 
         .menu-item {
-      
+
             &:nth-child(odd) {
                 padding-right: 40px;
                 padding-top: 40px;
                 padding-bottom: 40px;
+
                 border-right: 1px solid var(--white);
+                border-top: 1px solid var(--white);
                 border-bottom: 1px solid var(--white);
+
 
             }
 
@@ -40,7 +44,7 @@
                 padding-left: 40px;
                 padding-top: 40px;
                 padding-bottom: 40px;
-
+                border-top: 1px solid var(--white);
                 border-bottom: 1px solid var(--white);
 
 
@@ -52,7 +56,9 @@
                 width: 100px;
                 height: 43px;
                 background: var(--white);
-                margin-left: auto;
+                position: absolute;
+                right: 0;
+                top: 0;
 
                 .price {
                     font-style: italic;
@@ -65,9 +71,8 @@
             }
 
             .thumb {
-               
+                position: relative;
                 height: 680px;
-
 
                 img {
                     width: 680px;
@@ -89,6 +94,10 @@
                 padding: 24px 32px;
                 width: 680px;
                 height: 86px;
+                background: var(--title-color);
+
+                position: relative;
+                top: -50px;
 
 
                 .title {
@@ -104,6 +113,49 @@
                     font-size: 18px;
                     line-height: 150%;
                 }
+            }
+        }
+    }
+
+    .view-food {
+        border-radius: 100%;
+        width: 139px;
+        height: 139px;
+        background: var(--white);
+        margin: 0 auto;
+        margin-top: 80px;
+
+        position: relative;
+
+        .shape {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .arrow {
+                position: absolute;
+                top: 13px;
+                left: 43px;
+            }
+
+            .vector-image {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+
+            }
+
+            .content {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                letter-spacing: -0.01em;
+                color: var(--title-color);
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }

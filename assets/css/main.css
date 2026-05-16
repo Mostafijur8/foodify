@@ -4286,6 +4286,7 @@ img {
 /* 31.food-menu */
 .food-menu-wrapper {
   background-color: var(--title-color);
+  padding-bottom: 112px;
 }
 .food-menu-wrapper .top-section-title {
   padding-bottom: 160px;
@@ -4312,12 +4313,14 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   border-right: 1px solid var(--white);
+  border-top: 1px solid var(--white);
   border-bottom: 1px solid var(--white);
 }
 .food-menu-wrapper .card-menu .menu-item:nth-child(even) {
   padding-left: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
+  border-top: 1px solid var(--white);
   border-bottom: 1px solid var(--white);
 }
 .food-menu-wrapper .card-menu .menu-item .price-box {
@@ -4326,7 +4329,9 @@ img {
   width: 100px;
   height: 43px;
   background: var(--white);
-  margin-left: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .food-menu-wrapper .card-menu .menu-item .price-box .price {
   font-style: italic;
@@ -4337,6 +4342,7 @@ img {
   color: var(--title-color);
 }
 .food-menu-wrapper .card-menu .menu-item .thumb {
+  position: relative;
   height: 680px;
 }
 .food-menu-wrapper .card-menu .menu-item .thumb img {
@@ -4356,6 +4362,9 @@ img {
   padding: 24px 32px;
   width: 680px;
   height: 86px;
+  background: var(--title-color);
+  position: relative;
+  top: -50px;
 }
 .food-menu-wrapper .card-menu .menu-item .content .title {
   font-family: var(--font-primary);
@@ -4368,4 +4377,40 @@ img {
   font-style: italic;
   font-size: 18px;
   line-height: 150%;
+}
+.food-menu-wrapper .view-food {
+  border-radius: 100%;
+  width: 139px;
+  height: 139px;
+  background: var(--white);
+  margin: 0 auto;
+  margin-top: 80px;
+  position: relative;
+}
+.food-menu-wrapper .view-food .shape {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.food-menu-wrapper .view-food .shape .arrow {
+  position: absolute;
+  top: 13px;
+  left: 43px;
+}
+.food-menu-wrapper .view-food .shape .vector-image {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.food-menu-wrapper .view-food .shape .content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--title-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
