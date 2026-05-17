@@ -4308,14 +4308,14 @@ img {
   width: 648px;
   height: 131px;
 }
-.testimonials-wraper .testimonials-menu .Dessert-menu .Dessert-item-list .item:hover {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .Dessert-item-list .item:hover {
   background-image: url(/assets/images/testimonials/testimonials-bg1_2.png);
   border-radius: 10px;
   padding: 24px;
   width: 648px;
   height: 131px;
 }
-.testimonials-wraper .testimonials-menu .sub-title {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .sub-title {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 40px;
@@ -4324,7 +4324,7 @@ img {
   color: var(--white);
   margin-bottom: 48px;
 }
-.testimonials-wraper .testimonials-menu .item {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .item {
   display: flex;
   align-items: center;
   gap: 24px;
@@ -4334,12 +4334,12 @@ img {
   width: 648px;
   height: 131px;
 }
-.testimonials-wraper .testimonials-menu .item img {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .item img {
   border-radius: 20px;
   width: 87px;
   height: 83px;
 }
-.testimonials-wraper .testimonials-menu .item .content .text-one {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .item .content .text-one {
   font-style: italic;
   font-weight: 400;
   font-size: 18px;
@@ -4348,7 +4348,7 @@ img {
   color: var(--white);
   margin-bottom: 16px;
 }
-.testimonials-wraper .testimonials-menu .item .content .text-two {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .item .content .text-two {
   font-family: var(--font-primary);
   font-weight: 400;
   font-size: 24px;
@@ -4356,14 +4356,14 @@ img {
   letter-spacing: -0.01em;
   color: var(--white);
 }
-.testimonials-wraper .testimonials-menu .item .content .text-two span {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .item .content .text-two span {
   font-size: 16px;
   color: var(--theme-3);
 }
-.testimonials-wraper .Dessert-menu .Dessert {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .Dessert-menu .Dessert {
   text-align: right;
 }
-.testimonials-wraper .mid-content {
+.testimonials-wraper .testimonials-menu .Seasonal-menu .mid-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
