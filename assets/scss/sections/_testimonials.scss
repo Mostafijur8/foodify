@@ -17,101 +17,97 @@
 
         .Seasonal-menu {
             .seasonal-item-list {
-                .item {
-                    &:hover {
-                        background-image: url(/assets/images/testimonials/testimonials-bg1_1.png);
-                        border-radius: 10px;
-                        padding: 24px;
-                        width: 648px;
-                        height: 131px;
-                    }
-                }
-            }
-
-            .Dessert-menu {
-                .Dessert-item-list {
-                    .item {
-                        &:hover {
-                            background-image: url(/assets/images/testimonials/testimonials-bg1_2.png);
-                            border-radius: 10px;
-                            padding: 24px;
-                            width: 648px;
-                            height: 131px;
-                        }
-                    }
-                }
-
-                .sub-title {
-                    font-family: var(--font-primary);
-                    font-weight: 400;
-                    font-size: 40px;
-                    line-height: 120%;
-                    letter-spacing: -0.01em;
-                    color: var(--white);
-                    margin-bottom: 48px;
-                }
-
-                .item {
-                    display: flex;
-                    align-items: center;
-                    gap: 24px;
-                    margin-bottom: 32px;
-
+                .item:hover {
+                    background-image: url(/assets/images/testimonials/testimonials-bg1_1.png);
                     border-radius: 10px;
                     padding: 24px;
                     width: 648px;
                     height: 131px;
-
-                    img {
-                        border-radius: 20px;
-                        width: 87px;
-                        height: 83px;
-                    }
-
-                    .content {
-
-                        .text-one {
-                            font-style: italic;
-                            font-weight: 400;
-                            font-size: 18px;
-                            line-height: 150%;
-                            letter-spacing: -0.01em;
-                            color: var(--white);
-                            margin-bottom: 16px;
-
-                        }
-
-                        .text-two {
-                            font-family: var(--font-primary);
-                            font-weight: 400;
-                            font-size: 24px;
-                            line-height: 120%;
-                            letter-spacing: -0.01em;
-                            color: var(--white);
-
-                            span {
-                                font-size: 16px;
-                                color: var(--theme-3);
-                            }
-                        }
-                    }
                 }
-            }
-
-            .Dessert-menu {
-                .Dessert {
-                    text-align: right;
-                }
-            }
-
-            .mid-content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 12px;
-
             }
         }
+
+        .Dessert-menu {
+            .Dessert-item-list {
+                .item:hover {
+                    background-image: url(/assets/images/testimonials/testimonials-bg1_2.png);
+                    border-radius: 10px;
+                    padding: 24px;
+                    width: 648px;
+                    height: 131px;
+                }
+            }
+        }
+
+        .sub-title {
+            font-family: var(--font-primary);
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 120%;
+            letter-spacing: -0.01em;
+            color: var(--white);
+            margin-bottom: 48px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            margin-bottom: 32px;
+
+            border-radius: 10px;
+            padding: 24px;
+            width: 648px;
+            height: 131px;
+
+            img {
+                border-radius: 20px;
+                width: 87px;
+                height: 83px;
+            }
+
+            .content {
+
+                .text-one {
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--white);
+                    margin-bottom: 16px;
+
+                }
+
+                .text-two {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    color: var(--white);
+
+                    span {
+                        font-size: 16px;
+                        color: var(--theme-3);
+                    }
+                }
+            }
+        }
+    }
+
+    .Dessert-menu {
+        .Dessert {
+            text-align: right;
+        }
+    }
+
+    .mid-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+
     }
 }
