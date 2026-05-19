@@ -1,0 +1,151 @@
+.award-wrapper {
+    padding-bottom: 112px;
+
+    .top-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+
+        .left-title {
+            .sub-title {
+                margin-bottom: 16px;
+            }
+
+            .menu-title {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 60px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--theme);
+
+            }
+
+        }
+
+        .right-text {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .award-text {
+                font-style: italic;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: -0.01em;
+                color: var(--black-2);
+
+            }
+        }
+    }
+
+    .mid-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .award {
+
+            border: 1px solid var(--black-2);
+            border-radius: 10px;
+            padding: 48px 16px;
+            width: 100px;
+            height: 563px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            .content-one {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+                color: var(--header-color);
+
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+            }
+
+        }
+
+        .text-two {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            border: 1px solid var(--black-2);
+            border-radius: 10px;
+            padding: 48px 32px;
+            width: 1044px;
+            height: 564px;
+
+            .top-text {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+
+                .left-top {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    color: var(--header-color);
+                    text-align: left;
+                }
+            }
+
+        }
+
+        .mid-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .award-year {
+                .winner-icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 32px;
+                    margin-bottom: 32px;
+
+
+                    .year {
+                        font-family: var(--font-primary);
+                        font-weight: 400;
+                        font-size: 40px;
+                        line-height: 120%;
+                        letter-spacing: -0.01em;
+                        color: var(--header-color);
+                    }
+                }
+
+                .award-details {
+
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--black-2);
+                    max-width: 524px;
+                }
+            }
+
+            .award-image {
+                img {
+                    border-radius: 20px;
+                    width: 375px;
+                    height: 346px;
+                }
+            }
+        }
+    }
+}

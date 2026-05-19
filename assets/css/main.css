@@ -39,6 +39,7 @@ Description: Raizen- Personal Portfolio  <
 29.Testimonials
 30.Video
 31.food-menu
+32.Award Winning
 
 ------------------------------------------------------------------*/
 /* 01.Mixins */
@@ -4503,4 +4504,122 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* 32.Award Winning */
+.award-wrapper {
+  padding-bottom: 112px;
+}
+.award-wrapper .top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.award-wrapper .top-content .left-title .sub-title {
+  margin-bottom: 16px;
+}
+.award-wrapper .top-content .left-title .menu-title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--theme);
+}
+.award-wrapper .top-content .right-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.award-wrapper .top-content .right-text .award-text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--black-2);
+}
+.award-wrapper .mid-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.award-wrapper .mid-content .award {
+  border: 1px solid var(--black-2);
+  border-radius: 10px;
+  padding: 48px 16px;
+  width: 100px;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.award-wrapper .mid-content .award .content-one {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.award-wrapper .mid-content .text-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid var(--black-2);
+  border-radius: 10px;
+  padding: 48px 32px;
+  width: 1044px;
+  height: 564px;
+}
+.award-wrapper .mid-content .text-two .top-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.award-wrapper .mid-content .text-two .top-text .left-top {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+  text-align: left;
+}
+.award-wrapper .mid-content .mid-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.award-wrapper .mid-content .mid-section .award-year .winner-icon {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.award-wrapper .mid-content .mid-section .award-year .winner-icon .year {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+}
+.award-wrapper .mid-content .mid-section .award-year .award-details {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--black-2);
+  max-width: 524px;
+}
+.award-wrapper .mid-content .mid-section .award-image img {
+  border-radius: 20px;
+  width: 375px;
+  height: 346px;
 }/*# sourceMappingURL=main.css.map */
