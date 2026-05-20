@@ -4681,4 +4681,61 @@ img {
   position: absolute;
   top: 34px;
   right: 0;
+}
+.team-wrapper .Chef-thumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.team-wrapper .Chef-thumb .thumb {
+  position: relative;
+}
+.team-wrapper .Chef-thumb .thumb .experience-time {
+  border: 0.5px solid var(--header-color);
+  border-radius: 30px;
+  width: 112px;
+  height: 35px;
+  background: var(--white);
+  transform: rotate(17deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 21px;
+  bottom: 49px;
+}
+.team-wrapper .Chef-thumb .thumb .experience-time .year {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+}
+.team-wrapper .Chef-thumb .thumb img {
+  width: 458px;
+  height: 486px;
+}
+.team-wrapper .Chef-thumb .thumb .thumb-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.team-wrapper .Chef-thumb .thumb .thumb-content .client-name {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+}
+.team-wrapper .Chef-thumb .thumb .thumb-content .Designation {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
 }/*# sourceMappingURL=main.css.map */

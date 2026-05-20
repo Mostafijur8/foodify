@@ -32,6 +32,7 @@
 
         .experience {
             position: relative;
+
             .experience-year {
                 font-family: var(--font-primary);
                 font-weight: 400;
@@ -58,6 +59,73 @@
                 position: absolute;
                 top: 34px;
                 right: 0;
+            }
+        }
+    }
+
+    .Chef-thumb {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+
+        .thumb {
+            position: relative;
+
+            .experience-time {
+                border: 0.50px solid var(--header-color);
+                border-radius: 30px;
+                width: 112px;
+                height: 35px;
+                background: var(--white);
+                transform: rotate(17deg);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                right: 21px;
+                bottom: 49px;
+
+                .year {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    color: var(--header-color);
+
+                }
+            }
+
+            img {
+                width: 458px;
+                height: 486px;
+            }
+
+            .thumb-content {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 24px;
+
+                .client-name {
+                    font-family: var(--font-primary);
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    color: var(--header-color);
+                }
+
+                .Designation {
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    letter-spacing: -0.01em;
+                    color: var(--header-color);
+                }
+
             }
         }
     }
