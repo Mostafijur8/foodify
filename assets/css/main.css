@@ -40,6 +40,7 @@ Description: Raizen- Personal Portfolio  <
 30.Video
 31.food-menu
 32.Award Winning
+33.Team member
 
 ------------------------------------------------------------------*/
 /* 01.Mixins */
@@ -4622,4 +4623,62 @@ img {
   border-radius: 20px;
   width: 375px;
   height: 346px;
+}
+
+/* 33.Award Winning */
+.team-wrapper {
+  padding-bottom: 110px;
+  background-color: var(--bg-color);
+}
+.team-wrapper .top-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team-wrapper .top-content .menu-title {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+  max-width: 526px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+.team-wrapper .top-content .comment {
+  font-family: var(--second-primary);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--black-2);
+  max-width: 606px;
+}
+.team-wrapper .top-content .experience {
+  position: relative;
+}
+.team-wrapper .top-content .experience .experience-year {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 300px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: var(--header-color);
+}
+.team-wrapper .top-content .experience .experience-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--header-color);
+  border-radius: 30px;
+  padding: 8px 24px;
+  width: 309px;
+  height: 40px;
+  background: var(--white);
+  transform: rotate(20deg);
+  position: absolute;
+  top: 34px;
+  right: 0;
 }/*# sourceMappingURL=main.css.map */
