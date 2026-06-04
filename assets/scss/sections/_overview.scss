@@ -1,0 +1,64 @@
+.overview-wrapper {
+    padding: 80px 240px;
+    background: var(--header-color);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--white);
+
+        .item {
+            border: 0.50px solid rgba(255, 255, 255, 0.25);
+            padding: 24px;
+            width: 268px;
+            height: 204px;
+
+            .text {
+                font-family: var(--font-primary);
+                font-weight: 400;
+                font-size: 80px;
+                line-height: 120%;
+                letter-spacing: -0.01em;
+            }
+
+            .main-content {
+                .content {
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 120%;
+                    letter-spacing: -0.01em;
+                    text-align: center;
+
+                }
+
+                .counter {
+                    font-family: var(--font-body);
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+
+                }
+            }
+
+        }
+
+        .one,
+        .three,
+        .five {
+            .text {
+                margin-top: 10px;
+            }
+
+        }
+
+        .two,
+        .four {
+            .text {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

@@ -41,6 +41,7 @@ Description: Raizen- Personal Portfolio  <
 31.food-menu
 32.Award Winning
 33.Team member
+34.overview
 
 ------------------------------------------------------------------*/
 /* 01.Mixins */
@@ -4738,4 +4739,53 @@ img {
   line-height: 150%;
   letter-spacing: -0.01em;
   color: var(--header-color);
+}
+
+/* 34.overview*/
+.overview-wrapper {
+  padding: 80px 240px;
+  background: var(--header-color);
+}
+.overview-wrapper .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+.overview-wrapper .container .item {
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+  padding: 24px;
+  width: 268px;
+  height: 204px;
+}
+.overview-wrapper .container .item .text {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+}
+.overview-wrapper .container .item .main-content .content {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  text-align: center;
+}
+.overview-wrapper .container .item .main-content .counter {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+.overview-wrapper .container .one .text,
+.overview-wrapper .container .three .text,
+.overview-wrapper .container .five .text {
+  margin-top: 10px;
+}
+.overview-wrapper .container .two .text,
+.overview-wrapper .container .four .text {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
